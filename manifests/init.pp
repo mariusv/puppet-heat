@@ -252,8 +252,8 @@
 #   Defaults to http.
 #
 class heat(
-  $auth_uri                           = false,
-  $identity_uri                       = false,
+  $auth_uri                           = true,
+  $identity_uri                       = true,
   $package_ensure                     = 'present',
   $verbose                            = undef,
   $debug                              = undef,
